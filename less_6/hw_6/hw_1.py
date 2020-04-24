@@ -13,8 +13,9 @@
 # переменной, а проявили творчество, фантазию и создали универсальный код для замера памяти.
 
 
-# x86_64 GNU/Linux
-# Python 3.7.3
+
+# 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)] win32
+
 
 
 # lesson-03_9
@@ -58,3 +59,4 @@ sum_size += sys.getsizeof(string)
 sum_size += sys.getsizeof(j)
 
 print('Переменные занимают', sum_size)
+print(sys.version, sys.platform)
