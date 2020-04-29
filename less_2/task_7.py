@@ -4,7 +4,7 @@ sieve = [i for i in range(n)]
 sieve[1] = 0
 
 for i in range(2, n):
-    if sieve[1] != 0:
+    if sieve[i] != 0:
         j = i * 2
 
         while j < n:
