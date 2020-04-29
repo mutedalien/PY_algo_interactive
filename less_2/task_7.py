@@ -14,3 +14,6 @@ for i in range(2, n):
 
 result = [i for i in sieve if i != 0]
 print(result)
+
+# До какого числа получить простые числа: 40
+# [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
